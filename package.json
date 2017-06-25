@@ -2,10 +2,16 @@
   "name": "high-performance-vue-admin-panel",
   "version": "1.0.0",
   "main": "index.js",
+  "scripts": {
+    "dev": "lite-server --baseDir='src'"
+  },
   "repository": "git@github.com:SeanNguyen/high-performance-vue-admin-panel.git",
   "author": "Sean Nguyen <sean.nguyentrong@gmail.com>",
   "license": "MIT",
   "dependencies": {
     "vue": "^2.3.4"
+  },
+  "devDependencies": {
+    "lite-server": "^2.3.0"
   }
 }
